@@ -1,0 +1,30 @@
+Blog Api
+
+register user- model 9email and password
+1. email, name, password, verification
+2.hash users password (mongoose middleware
+3.generate token (mongoose instance method)
+4.send response with token
+
+
+login Users
+1.email and password validation
+2.find user
+3.compare password (if correct, generate token)
+
+generating proper jwt secrets: allkeysgenerator.com
+
+Authentication middleware
+authorization: bearer token-request header
+1.get token from req. headers
+2.verify token
+
+error handling
+
+CRUD OPERATIONS FOR BLOG
+1.SCHEMA connection
+2.crud
+
+added things
+allow update to user info
+handling errors for job schema
